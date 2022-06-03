@@ -1,0 +1,152 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.signContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 400px;
+    height: 330px;
+    border: 1px solid black;
+}
+
+
+#titles {
+    position: relative;
+    top: -70px;
+    width: 240px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#signID {
+    position: relative;
+    width: 260px;
+    height: 30px;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    top: -40px;
+}
+
+#singInputID {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 250px;
+    outline: 0;
+    border: none;
+    font-size: 15px;
+}
+
+#signPassword {
+    position: relative;
+    width: 260px;
+    height: 30px;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    top: -40px;
+}
+
+#singInputPass {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 250px;
+    outline: 0;
+    border: none;
+    font-size: 15px;
+}
+
+#signName {
+    position: relative;
+    width: 260px;
+    height: 30px;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    top: -40px;
+}
+
+#signInputName {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 250px;
+    outline: 0;
+    border: none;
+    font-size: 15px;
+}
+
+#signButton {
+    position: relative;
+    left: 25%;
+    color: white;
+    background-color: rgb(64, 212, 64);
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    top: -40px;
+}
+
+#signButton:active {
+    background-color: green;
+}
+
+#signIderror {
+    position: absolute;
+    top: 300px;
+    left: 125px;
+    color: red;
+    display: none;
+}
+
+#signIdmail {
+    position: absolute;
+    top: 40px;
+    color: red;
+    display: none;
+}
+
+#signPwmail {
+    position: absolute;
+    top: 40px;
+    color: red;
+    display: none;
+}
+
+#scanId {
+    position: absolute;
+    width: 50px;
+    top: 3px;
+    left: 270px;
+    border: none;
+    background-color: aqua;
+    border-radius: 100px;
+}
+
+#scanPw {
+    position: absolute;
+    width: 50px;
+    top: 3px;
+    left: 270px;
+    border: none;
+    background-color: aqua;
+    border-radius: 100px;
+}
+
+#scanId {
+    position: absolute;
+    width: 50px;
+    top: 3px;
+    left: 270px;
+    border: none;
+    background-color: aqua;
+    border-radius: 100px;
+}

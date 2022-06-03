@@ -1,0 +1,82 @@
+.firstContainer {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    box-shadow: 0px 0px 5px;
+}
+
+#firstTitle {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    left: 25%;
+    top: -80px;
+    text-align: center;
+}
+
+#firstQ {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#qInput {
+    position: absolute;
+    border: none;
+    outline: 0;
+    font-size: 20px;
+    top: 13px;
+    left: 5px;
+}
+
+#qInputBox {
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+    width: 300px;
+    height: 50px;
+    left: 50px;
+    top: 20px;
+}
+
+#firstClick {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(64, 212, 64);
+    border: none;
+    border-radius: 10px;
+    left: 25%;
+    top: 55%;
+}
+
+#firstClick:active {
+    background-color: green;
+}
+
+#firstBack {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(64, 212, 64);
+    border: none;
+    border-radius: 10px;
+    left: 25%;
+    top: 70%;
+}
+
+#firstBack:active {
+    background-color: green;
+}
+
+#Ferror {
+    position: absolute;
+    left: 38%;
+    top: 360px;
+    color: red;
+    font-weight: 800;
+    display: none;
+}
